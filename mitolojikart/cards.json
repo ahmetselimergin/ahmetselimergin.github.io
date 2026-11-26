@@ -1,27 +1,69 @@
 {
-  "schema": 1,
-  "version": 1,
+  "schema": 4,
+  "version": 7,
   "starterDeck": [
     "boru",
     "boru",
     "boru",
     "tulpar",
     "tulpar",
+    "tulpar",
     "albasti",
     "albasti",
-    "huma",
-    "huma",
     "sahmaran",
     "sahmaran",
     "tepegoz",
     "tepegoz",
-    "karakus",
+    "kam",
+    "yel_ana",
+    "umay_ana",
+    "ay_ata",
+    "huma",
+    "ayaz_ata",
+    "demirci",
+    "ulgen_elcisi",
+    "kayra_han",
     "evren",
     "yildirim",
-    "yildirim",
-    "sifa",
+    "bereket",
+    "ak_ana",
+    "su_ana",
+    "davul",
+    "yer_yarildi",
     "kalkan",
-    "karsi"
+    "ayna"
+  ],
+  "enemyDeck": [
+    "boru",
+    "boru",
+    "boru",
+    "albasti",
+    "albasti",
+    "albasti",
+    "sahmaran",
+    "sahmaran",
+    "sahmaran",
+    "tepegoz",
+    "tepegoz",
+    "tepegoz",
+    "emegen",
+    "emegen",
+    "demirci",
+    "yutpa",
+    "yelbegen",
+    "sangal",
+    "erlik_bekcisi",
+    "abra",
+    "yildirim",
+    "yildirim",
+    "bereket",
+    "bereket",
+    "kizagan",
+    "od_ana",
+    "bengi_su",
+    "yer_yarildi",
+    "azmic",
+    "bereket"
   ],
   "cards": [
     {
@@ -38,7 +80,7 @@
       "onSummon": "None",
       "mergeInto": "asena",
       "text": "Birleşir: Asena",
-      "lore": "Bozkırın gözü, sürünün yemini."
+      "lore": "Uluması duyulunca bozkır nefesini tutar."
     },
     {
       "id": "asena",
@@ -56,7 +98,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Koruyucu",
-      "lore": "Ergenekon'dan yolu gösteren dişi kurt."
+      "lore": "Bir halkı demir dağın içinden o çıkardı."
     },
     {
       "id": "tulpar",
@@ -74,7 +116,7 @@
       "onSummon": "None",
       "mergeInto": "gok_tulpar",
       "text": "Atılgan",
-      "lore": "Kanatlı at; rüzgârı bile geride bırakır."
+      "lore": "Nal sesi gök gürültüsünden önce gelir."
     },
     {
       "id": "gok_tulpar",
@@ -92,7 +134,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Atılgan",
-      "lore": "Toynağının değdiği yerde yıldız kalır."
+      "lore": "Yıldızlar onun toynak izleridir."
     },
     {
       "id": "albasti",
@@ -108,7 +150,7 @@
       "onSummon": "None",
       "mergeInto": "ulu_albasti",
       "text": "Birleşir: Ulu Albastı",
-      "lore": "Gece yarısı, uyuyanların başında bekler."
+      "lore": "Gece yarısı kapını çalarsa açma."
     },
     {
       "id": "ulu_albasti",
@@ -124,7 +166,7 @@
       "onSummon": "HitHero2",
       "mergeInto": "",
       "text": "Gelince: rakibe 2 hasar",
-      "lore": "Artık ateşten korkmaz; ateş ondan korkar."
+      "lore": "Ocakları söndürdü; şimdi ateş ondan kaçar."
     },
     {
       "id": "huma",
@@ -140,7 +182,7 @@
       "onSummon": "HealHero3",
       "mergeInto": "devlet_kusu",
       "text": "Gelince: 3 can kazan",
-      "lore": "Gölgesi kimin üstüne düşerse talihi döner."
+      "lore": "Gölgesi düştüğü başa taç konur."
     },
     {
       "id": "devlet_kusu",
@@ -158,7 +200,7 @@
       "onSummon": "HealHero3",
       "mergeInto": "",
       "text": "Uçan. Gelince: 3 can",
-      "lore": "Kanat çırptığında hakanlar tahta oturur."
+      "lore": "Kanadının altında kağanlıklar doğar."
     },
     {
       "id": "sahmaran",
@@ -176,7 +218,7 @@
       "onSummon": "None",
       "mergeInto": "sahmaran_ana",
       "text": "Zehirli",
-      "lore": "Bilgeliği zehrinde, zehri bilgeliğinde."
+      "lore": "Sırrını bilen ölümsüz olur, satan ölür."
     },
     {
       "id": "sahmaran_ana",
@@ -195,7 +237,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Zehirli, koruyucu",
-      "lore": "Yılanların anası; sırrını satanı affetmez."
+      "lore": "Bin yılan onun tek sözüyle uyanır."
     },
     {
       "id": "tepegoz",
@@ -213,7 +255,7 @@
       "onSummon": "None",
       "mergeInto": "ulu_tepegoz",
       "text": "Koruyucu",
-      "lore": "Tek gözü var, ama hiçbir şeyi kaçırmaz."
+      "lore": "Basat gelene dek kimse onu yenemedi."
     },
     {
       "id": "ulu_tepegoz",
@@ -231,7 +273,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Koruyucu",
-      "lore": "Dağlar onun yanında tepecik kalır."
+      "lore": "Adımı dağları, öfkesi obaları sarsar."
     },
     {
       "id": "karakus",
@@ -249,7 +291,7 @@
       "onSummon": "None",
       "mergeInto": "tanri_karakusu",
       "text": "Uçan",
-      "lore": "Tengri'nin habercisi, pençesi kara bulut."
+      "lore": "Pençesinde fırtına, kanadında gece taşır."
     },
     {
       "id": "tanri_karakusu",
@@ -268,7 +310,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Uçan, atılgan",
-      "lore": "Kanatları güneşi örter, gölgesi savaşı bitirir."
+      "lore": "Gölgesi düştüğü orduda savaş biter."
     },
     {
       "id": "evren",
@@ -284,7 +326,7 @@
       "onSummon": "HitAllEnemies1",
       "mergeInto": "",
       "text": "Gelince: tüm düşmanlara 1",
-      "lore": "Gökte kıvrılan ejder; nefesi şimşek olur."
+      "lore": "Kıvrıldığı yerde gök çatlar, şimşek doğar."
     },
     {
       "id": "yildirim",
@@ -300,7 +342,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Bir hedefe 3 hasar",
-      "lore": "Tengri öfkelendiğinde gök yarılır."
+      "lore": "Tengri tek kelime söyler: gök yarılır."
     },
     {
       "id": "sifa",
@@ -316,7 +358,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Bir dostuna 4 can",
-      "lore": "Umay Ana çocuklarını hiç unutmaz."
+      "lore": "Umay Ana yaralı yavrusunu asla bırakmaz."
     },
     {
       "id": "bereket",
@@ -332,7 +374,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Bu tur +2 kut",
-      "lore": "Kut, hak edenin ocağına konar."
+      "lore": "Kut, alnı ak olanın ocağına konar."
     },
     {
       "id": "davul",
@@ -348,7 +390,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Yaratıklarına +1/+1",
-      "lore": "Davul vurunca atalar ayağa kalkar."
+      "lore": "Davul gümler, atalar mezarından kalkar."
     },
     {
       "id": "kalkan",
@@ -364,7 +406,7 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Gizli: ilk saldırıyı boşa çıkarır",
-      "lore": "Nazar değmez, kılıç işlemez."
+      "lore": "Nazarlık kırıldı; kılıç seni bulamadı."
     },
     {
       "id": "karsi",
@@ -380,7 +422,671 @@
       "onSummon": "None",
       "mergeInto": "",
       "text": "Gizli: saldırana 3 hasar",
-      "lore": "Kurt kapanı: saldıran kendi kanını görür."
+      "lore": "Kurdun dişine uzanan el geri dönmez."
+    },
+    {
+      "id": "kam",
+      "name": "Kam",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 2,
+      "attack": 1,
+      "health": 2,
+      "traits": [],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "DrawCard",
+      "mergeInto": "",
+      "text": "Gelince: 1 kart çek",
+      "lore": "Davulunu çalar, ruhlar âlemine yol açar."
+    },
+    {
+      "id": "yel_ana",
+      "name": "Yel Ana",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 2,
+      "attack": 2,
+      "health": 2,
+      "traits": [
+        "Flying"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Uçan",
+      "lore": "Bir nefesiyle bozkırın bütün otları eğilir."
+    },
+    {
+      "id": "ayaz_ata",
+      "name": "Ayaz Ata",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 5,
+      "attack": 5,
+      "health": 6,
+      "traits": [
+        "Flying"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Uçan",
+      "lore": "Sakalından kar yağar, nefesinden kış doğar."
+    },
+    {
+      "id": "demirci",
+      "name": "Ergenekon Demircisi",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 5,
+      "attack": 3,
+      "health": 7,
+      "traits": [
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Koruyucu",
+      "lore": "Demir dağı eriten ateş onun körüğündendi."
+    },
+    {
+      "id": "ulgen_elcisi",
+      "name": "Ülgen'in Elçisi",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 7,
+      "attack": 6,
+      "health": 7,
+      "traits": [
+        "Flying"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HealHero3",
+      "mergeInto": "",
+      "text": "Uçan. Gelince: 3 can kazan",
+      "lore": "Ülgen'in sözünü on yedi kat gökten indirir."
+    },
+    {
+      "id": "erlik_bekcisi",
+      "name": "Erlik'in Bekçisi",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 8,
+      "attack": 7,
+      "health": 8,
+      "traits": [
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HitAllEnemies1",
+      "mergeInto": "",
+      "text": "Koruyucu. Gelince: tüm düşmanlara 1",
+      "lore": "Yeraltı kapısında uyumaz; giren çıkamaz."
+    },
+    {
+      "id": "kizagan",
+      "name": "Kızagan'ın Öfkesi",
+      "kind": "Spell",
+      "realm": "Yer",
+      "cost": 3,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "Wrath",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Tüm düşman yaratıklara 2 hasar",
+      "lore": "Savaş tanrısı kükrer, kalkanlar parçalanır."
+    },
+    {
+      "id": "ak_ana",
+      "name": "Ak Ana'nın Bilgisi",
+      "kind": "Spell",
+      "realm": "Gok",
+      "cost": 2,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "Insight",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "2 kart çek",
+      "lore": "Dünya yokken suyun üstündeki ilk söz onundu."
+    },
+    {
+      "id": "bengi_su",
+      "name": "Bengi Su",
+      "kind": "Spell",
+      "realm": "Yer",
+      "cost": 2,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "Revive",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Ölen son yaratığın eline döner",
+      "lore": "Bir yudum içeni ölüm unutur."
+    },
+    {
+      "id": "yer_yarildi",
+      "name": "Yer Yarıldı",
+      "kind": "Spell",
+      "realm": "Yer",
+      "cost": 2,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "Quake",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Hasarlı bir düşman yaratığı yok et",
+      "lore": "Toprak açılır, yaralıyı yutar, sonra susar."
+    },
+    {
+      "id": "ayna",
+      "name": "Kam Aynası",
+      "kind": "Trap",
+      "realm": "Gok",
+      "cost": 1,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "None",
+      "trap": "Mirror",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Gizli: rakibin ilk büyüsünü bozar",
+      "lore": "Kamın aynasına bakan büyü kendini yakar."
+    },
+    {
+      "id": "abra",
+      "name": "Abra",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 8,
+      "attack": 6,
+      "health": 9,
+      "traits": [
+        "Guard",
+        "Poison"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Koruyucu, zehirli",
+      "lore": "Erlik'in kapısında kıvrılır; nefesi zehirdir."
+    },
+    {
+      "id": "yutpa",
+      "name": "Yutpa",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 6,
+      "attack": 5,
+      "health": 7,
+      "traits": [],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "Devour",
+      "mergeInto": "",
+      "text": "Gelince: hasarlı en güçlü düşmanı yutar",
+      "lore": "Ağzını açtı mı ordular kaybolur."
+    },
+    {
+      "id": "yelbegen",
+      "name": "Yelbeğen",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 6,
+      "attack": 5,
+      "health": 7,
+      "traits": [
+        "Twin"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Her tur iki kez saldırır",
+      "lore": "Yedi başı var, yedisi de aç."
+    },
+    {
+      "id": "emegen",
+      "name": "Emegen",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 3,
+      "attack": 3,
+      "health": 2,
+      "traits": [],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HitHero2",
+      "mergeInto": "",
+      "text": "Gelince: rakibe 2 hasar",
+      "lore": "Yiğitlerin yolunu keser, kemiklerinden kale kurar."
+    },
+    {
+      "id": "bukrek",
+      "name": "Bükrek",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 6,
+      "attack": 5,
+      "health": 6,
+      "traits": [
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HealHero3",
+      "mergeInto": "",
+      "text": "Koruyucu. Gelince: 3 can kazan",
+      "lore": "Bin yılda bir denizden çıkar; dalgalar eğilir."
+    },
+    {
+      "id": "sangal",
+      "name": "Sangal",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 6,
+      "attack": 6,
+      "health": 5,
+      "traits": [
+        "Flying"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HitHero2",
+      "mergeInto": "",
+      "text": "Uçan. Gelince: rakibe 2 hasar",
+      "lore": "Bükrek'le dokuz yıl savaştı; gök kızıla boyandı."
+    },
+    {
+      "id": "umay_ana",
+      "name": "Umay Ana",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 4,
+      "attack": 2,
+      "health": 6,
+      "traits": [
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HealHero3",
+      "mergeInto": "",
+      "text": "Koruyucu. Gelince: 3 can kazan",
+      "lore": "Kanatları açılınca hiçbir çocuk korkmaz."
+    },
+    {
+      "id": "ay_ata",
+      "name": "Ay Ata",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 4,
+      "attack": 4,
+      "health": 5,
+      "traits": [
+        "Flying"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Uçan",
+      "lore": "Kayra'nın oğlu; gece onun gümüş yayıdır."
+    },
+    {
+      "id": "gun_ana",
+      "name": "Gün Ana",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 4,
+      "attack": 3,
+      "health": 5,
+      "traits": [],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "Rally",
+      "mergeInto": "",
+      "text": "Gelince: diğer yaratıklarına +1/+1",
+      "lore": "O doğunca kılıçlar parlar, yürekler ısınır."
+    },
+    {
+      "id": "kayra_han",
+      "name": "Kayra Han",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 8,
+      "attack": 8,
+      "health": 8,
+      "traits": [
+        "Flying",
+        "Haste"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Uçan, atılgan",
+      "lore": "Önce sonsuz su vardı. Sonra Kayra konuştu."
+    },
+    {
+      "id": "yel_iyesi",
+      "name": "Yel İyesi",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 1,
+      "attack": 1,
+      "health": 1,
+      "traits": [
+        "Flying",
+        "Haste"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Uçan, atılgan",
+      "lore": "Islığını duyan çoban sürüsünü toplar."
+    },
+    {
+      "id": "od_ana",
+      "name": "Od Ana'nın Ateşi",
+      "kind": "Spell",
+      "realm": "Yer",
+      "cost": 4,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "Blaze",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Bir yaratığa 5 hasar",
+      "lore": "Ocağı hor gören onun alevinde yanar."
+    },
+    {
+      "id": "su_ana",
+      "name": "Su Ana'nın Bereketi",
+      "kind": "Spell",
+      "realm": "Gok",
+      "cost": 1,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "Tide",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Kahramanına ve yaratıklarına 3 can",
+      "lore": "Pınarında dilek tutanı kimse yenemez."
+    },
+    {
+      "id": "azmic",
+      "name": "Azmıç'ın Çağrısı",
+      "kind": "Trap",
+      "realm": "Yer",
+      "cost": 2,
+      "attack": 0,
+      "health": 0,
+      "traits": [],
+      "spell": "None",
+      "trap": "Lure",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Gizli: saldıran, kendi kahramanına vurur",
+      "lore": "Annenin sesiyle çağırır. Dönüp bakma."
+    },
+    {
+      "id": "akkurt_alp",
+      "name": "Akkurt Alp",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 3,
+      "attack": 3,
+      "health": 3,
+      "traits": [
+        "Haste"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "fusion": [
+        "tulpar",
+        "boru"
+      ],
+      "text": "Atılgan",
+      "lore": "Kanatlı atı ve ak kurduyla tek başına ordudur."
+    },
+    {
+      "id": "kara_bora",
+      "name": "Kara Bora",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 3,
+      "attack": 3,
+      "health": 2,
+      "traits": [
+        "Flying"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HitHero2",
+      "mergeInto": "",
+      "fusion": [
+        "yel_ana",
+        "albasti"
+      ],
+      "text": "Uçan. Gelince: rakibe 2 hasar",
+      "lore": "Albastı'nın öfkesi bulut oldu, bozkıra çöktü."
+    },
+    {
+      "id": "humaran",
+      "name": "Hümaran",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 4,
+      "attack": 3,
+      "health": 5,
+      "traits": [
+        "Flying",
+        "Poison"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HealHero3",
+      "mergeInto": "",
+      "fusion": [
+        "huma",
+        "sahmaran"
+      ],
+      "text": "Uçan, zehirli. Gelince: 3 can",
+      "lore": "Hüma'nın kanadı, Şahmaran'ın sırrı; tek bedende."
+    },
+    {
+      "id": "ak_kam",
+      "name": "Ak Kam",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 4,
+      "attack": 2,
+      "health": 6,
+      "traits": [
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "DrawHeal",
+      "mergeInto": "",
+      "fusion": [
+        "umay_ana",
+        "kam"
+      ],
+      "text": "Koruyucu. Gelince: 1 kart, 2 can",
+      "lore": "Umay'ın kutsadığı kam ölülerle bile konuşur."
+    },
+    {
+      "id": "gumus_ay_alpi",
+      "name": "Gümüş Ay Alpı",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 6,
+      "attack": 6,
+      "health": 8,
+      "traits": [
+        "Flying",
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "fusion": [
+        "ay_ata",
+        "demirci"
+      ],
+      "text": "Uçan, koruyucu",
+      "lore": "Zırhı ay ışığından dövüldü; kılıcı hiç körelmez."
+    },
+    {
+      "id": "gok_kagani",
+      "name": "Gök Kağanı",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 9,
+      "attack": 11,
+      "health": 11,
+      "traits": [
+        "Flying",
+        "Haste"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HitAllEnemies2",
+      "mergeInto": "",
+      "fusion": [
+        "kayra_han",
+        "ulgen_elcisi"
+      ],
+      "text": "Uçan, atılgan. Gelince: düşmanlara 2",
+      "lore": "Kayra ile Ülgen bir oldu; gök tek hükümdar tanır."
+    },
+    {
+      "id": "dev_anasi",
+      "name": "Dev Anası",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 5,
+      "attack": 5,
+      "health": 7,
+      "traits": [
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HitHero2",
+      "mergeInto": "",
+      "fusion": [
+        "tepegoz",
+        "emegen"
+      ],
+      "text": "Koruyucu. Gelince: rakibe 2 hasar",
+      "lore": "Tepegöz'ü doğurdu, devleri sütüyle büyüttü."
+    },
+    {
+      "id": "tamu_ejderi",
+      "name": "Tamu Ejderi",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 9,
+      "attack": 10,
+      "health": 12,
+      "traits": [
+        "Guard",
+        "Poison"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HitAllEnemies1",
+      "mergeInto": "",
+      "fusion": [
+        "erlik_bekcisi",
+        "abra"
+      ],
+      "text": "Koruyucu, zehirli. Gelince: düşmanlara 1",
+      "lore": "Tamu'nun iki bekçisi bir oldu; kapı bir daha açılmaz."
+    },
+    {
+      "id": "yelmoguz",
+      "name": "Yelmoğuz",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 5,
+      "attack": 4,
+      "health": 5,
+      "traits": [
+        "Poison"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "DrawCard",
+      "mergeInto": "",
+      "text": "Zehirli. Gelince: 1 kart çek",
+      "lore": "Demir tırnaklı cadı; kazanında yolcuların gölgesi kaynar."
+    },
+    {
+      "id": "kara_yilan",
+      "name": "Kara Yılan",
+      "kind": "Creature",
+      "realm": "Yer",
+      "cost": 2,
+      "attack": 2,
+      "health": 3,
+      "traits": [
+        "Poison"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "None",
+      "mergeInto": "",
+      "text": "Zehirli",
+      "lore": "Abra'nın yavrusu; kayaların arasından sessizce süzülür."
+    },
+    {
+      "id": "ulgen",
+      "name": "Ülgen",
+      "kind": "Creature",
+      "realm": "Gok",
+      "cost": 10,
+      "attack": 9,
+      "health": 10,
+      "traits": [
+        "Flying",
+        "Guard"
+      ],
+      "spell": "None",
+      "trap": "None",
+      "onSummon": "HealHero3",
+      "mergeInto": "",
+      "text": "Uçan, koruyucu. Gelince: 3 can kazan",
+      "lore": "Göğün on altıncı katında oturur; ışığı yeryüzüne bereket olur."
     }
   ]
 }
